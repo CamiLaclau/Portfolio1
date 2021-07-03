@@ -1,0 +1,673 @@
+html,
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
+.ulheader{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+a:hover {
+    color:rgb(96, 133, 202)
+
+}
+a:active {
+    box-shadow: 0px 0px 5px 1px teal;
+    border-radius: 20px;
+    color: teal;
+}
+.primernav{
+margin: 50px;
+justify-content: flex-end;
+}
+.botonuno{
+    border-radius: 30px;
+    border: 2px solid #2a6186;
+    color: black;
+    background-color: #4c9791;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.botonuno:hover {
+    background-color: #88beba;
+    color: white;
+}
+@media screen and (max-width:1100px) and (min-width:300px) {
+    header{
+        display: none;
+    }
+}
+/*Hola yo soy*/
+.holasoy{
+    font-family: 'Heebo', sans-serif;
+    font-size: 45px;
+    color: black;
+    margin: 0;
+}
+.camila{
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(96, 133, 202);
+    font-size: 70px;
+    margin: 0;
+}
+.descripcion{
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+.botondos{
+    border: 2px solid #2d6b94;
+    color: black;
+    background-color: rgb(96, 134, 184);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    
+}
+.botondos:hover{
+    background-color: rgb(150, 189, 240);
+    color: white;
+}
+.seccionuno{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+.imagenselfie{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+  
+}
+
+@media screen and (max-width:1100px) and (min-width:300px){
+    .seccionuno{
+        display: flex;
+        flex-direction: column;
+    }
+    .descripcion{
+        font-size: 19px;
+    }
+    .holasoy{
+        text-align: center;
+    }
+    .camila{
+        text-align: center;
+    }
+    .descripcion{
+        text-align: center;
+    }
+    .contenedoruno{
+        text-align: center;
+    }
+}
+@media screen and (max-width:670px) and (min-width:560px){
+    .camila{
+        font-size: 60px;
+    }
+    
+}
+@media screen and (max-width:560px) and (min-width:443px){
+    .camila{
+        font-size: 40px;
+    }
+    .descripcion{
+        font-size: 17px;
+    }
+    .holasoy{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:443px) and (min-width:300px){
+    .camila{
+        font-size: 27px;
+    }
+    .descripcion{
+        font-size: 14px;
+    }
+    .holasoy{
+        font-size: 30px;
+    }
+}
+/*Mis conocimientos*/
+.segundaseccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 243, 243);
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.divconocimientos{
+    text-align: center;
+}
+.segundah2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.primerlorem{
+    font-size: 23px;
+    width: 500px
+}
+button:hover{
+    color: beige;
+}
+.contenedoruno{
+    text-align: start;
+}
+.imagenicono{
+    width: 80px;
+    height: 80px;
+}
+
+.primerlorem{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    width: 500px;
+}
+.iconosconocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #4c9791;
+    border-radius: 8px;
+    margin: 10px;
+ }
+ .card:hover {
+     border-color:  #42ccbe;
+     color: #42ccbe;
+
+ }
+ .pcard{
+     font-weight: bold;
+ }
+ @media screen and (max-width:940px) and (min-width:615px){
+    .iconosconocimientos{
+        width: 700px;
+        height: 750px;
+    }
+}  
+@media screen and (max-width:615px) and (min-width:580px){
+        .iconosconocimientos{
+            width: 450px;
+            height: 1700px;
+        }
+}
+@media screen and (max-width:580px) and (min-width:490px){
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+    .primerlorem{
+        width: 450px;
+        
+    }
+    .iconosconocimientos{
+        width: 450px;
+        height: 750px;
+    }
+}
+@media screen and (max-width:490px) and (min-width:320px){
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+
+    .primerlorem{
+        width: 320px;
+        
+    }
+    .iconosconocimientos{
+        width: 400px;
+        height: 1600px;
+    }
+    .segundah2{
+        font-size: 35px;
+    }
+}
+
+ /*SobreMi*/
+.seccionsobremi{
+    background-color: #4c9791;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parrafosobremi{
+    margin: 100px;
+    margin-left: 150;
+    margin-right: 150px;
+    font-size: 23px;
+}
+.h2sobremi{
+    font-size: 40px;
+}
+@media screen and (max-width:1125px) and (min-width:489px){
+.imagencomillas{
+    margin-top: 40px;
+}
+
+.h2sobremi{
+    margin-bottom: 40px;
+}
+}
+@media screen and (max-width:489px) and (min-width:320px){
+    .imagencomillas{
+        margin-top: 60px;
+    }
+    
+    .h2sobremi{
+        margin-bottom: 60px;
+    }
+}
+/*Proyectos*/
+.tercerseccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.tercerh2{
+    font-weight: bold;
+    font-size: 42px;
+}
+.centrarcard2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+.imagenes{
+    width: 230px;
+    height: 230px;
+}
+.contenedor{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #4c9791;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tercerparte{
+    margin: 20px;    
+}
+.imagenconocimiento{
+    text-decoration: none;
+    width: 300px;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}  
+.contenedor:hover {
+    border-color: black
+}
+.segundolorem{
+    width: 500px;
+}
+.pcontenedor{
+    font-size: 18px;
+    font-weight: bold;
+}
+.contenedor:hover {
+    border-color:  #42ccbe;
+    color: #42ccbe;
+}
+@media screen and (max-width:1015px) and (min-width:930px){
+    .centrarcard2{
+        width: 900px;            
+    }
+    .contenedor{
+        width: 270px;
+        height: 270px;
+    } 
+    .imagenconocimiento{
+        width: 270px;  
+            } 
+    .imagenes {
+        width: 200px;
+    }
+}
+@media screen and (max-width:930px) and (min-width:700px){
+    .centrarcard2{
+        width: 650px;
+        }
+            
+        .contenedor{
+            width: 300px;
+            height: 300px;
+        } 
+        .imagenconocimiento{
+            width: 300px;  
+                } 
+        .imagenes {
+            width: 230px;
+        }
+    }
+    @media screen and (max-width:700px) and (min-width:520px){
+        .centrarcard2{
+            width: 500px;
+        }
+        .card2{
+            flex-direction: column;
+            align-items: center;
+            }                
+            
+        }
+
+    @media screen and (max-width:520px) and (min-width:320px){
+            .centrarcard2{
+                width: 350px;
+            }
+            .card2{
+                flex-direction: column;
+                align-items: center;
+                } 
+            .tercerh2{
+                    font-weight: bold;
+                    font-size: 35px;
+                }
+            .segundolorem{
+                    width: 300px;
+                    font-size: 18px;
+                }
+                .contenedor{
+                    width: 270px;
+                    height: 270px;
+                } 
+                .imagenconocimiento{
+                    width: 270px;  
+                        } 
+                .imagenes {
+                    width: 200px;
+                }
+                
+            }
+
+/*Formulario*/
+.Formulario{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 20px;
+    margin: 150px 100px;
+}
+.Contactame{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+.Contactame2 h2{
+    font-weight: bold;
+    font-size: 42px;
+}
+.Contactame2 p{
+    margin-bottom: 50px;
+}
+
+.ContactameRedes2{
+    flex-direction: column;
+    display: flex;
+   
+}
+.ContactameRedes3{
+    list-style-type: none;
+    margin-bottom: 20px;
+    
+}
+.ContactameRedes3 i{
+     margin-right: 10px;
+}
+.iconosredes2 i{
+    color: teal;
+    padding: 10px;
+}
+
+.ContactameRedes a{
+    color: black;
+    text-decoration: none;   
+}
+.iconosredes2:hover{
+    color: teal;  
+}
+.iconosredes2:hover i{
+    background-color: teal;
+    border-radius: 100%;
+    color: white
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.Divname{
+    display: flex;
+    flex-direction: row;
+}
+
+.labelname{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: 100;
+}
+input[type=text]:active{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px teal
+    
+}
+input[type=text]:focus{
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px teal
+    
+}
+input [type=email]:active{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px teal
+}
+input[type=email]:focus{
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px teal
+}
+textarea:active{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px teal
+
+}
+textarea:focus{
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px teal
+}
+.Escribime label{
+    font-weight: 50px;
+}
+.Escribime{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    font-size: 22px;
+}
+.Escribime h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+.Escribime label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Divname{
+    text-align: left;
+}
+
+footer{
+    height: 300px;
+    background-color: #4c9791;
+}
+.segundonav{
+    display: flex;
+    justify-content: center;
+    
+}
+.ulfooter{
+    list-style-type: none;
+    display: flex;
+    margin-top: 60px;
+}
+.segundonav a{
+    text-decoration: none;
+    color:white
+}
+.lifooter{
+    margin: 10px;
+    font-size: 17px;
+    
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    background-color: #f6f7fb;
+    color: grey;
+    border-radius: 20px;
+    border: 1px solid #f6f7fb
+}
+input[type="Email"]{
+    width: 80%;
+    height: 30px;
+    background-color: #f6f7fb;
+    color: grey;
+    border-radius: 20px;
+    border: 1px solid #f6f7fb
+
+}
+textarea{
+    width: 100%;
+    height: 60%;
+    background-color: #f6f7fb;
+    color: grey;
+    border-radius: 15px;
+    border: 1px solid #f6f7fb
+
+}
+.botonformulario{
+    border-radius: 30px;
+    border: 2px solid #2a6186;
+    color: black;
+    background-color: #4c9791;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    width: 150px;
+    margin: 20px;
+}
+.botonformulario:hover{
+    background-color: #6db3ad;
+}
+.footerredes{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerredes2{
+    margin: 10px;
+}
+.footerredes2 i{
+    color:rgb(96, 133, 202);
+    background-color:white;
+    border-radius: 50%;
+   padding: 10px;
+}
+.footerredes2 :hover{
+    background:rgb(96, 133, 202);
+    color: white;
+}
+.hechoconamor p{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+
+
+    
+
+
+
+
+    
+     
+
+  
