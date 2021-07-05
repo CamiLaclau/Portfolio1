@@ -456,20 +456,19 @@ button:hover{
 .Formulario{
     display: flex;
     justify-content: center;
-    box-sizing: border-box;
     border: 1px solid rgb(190, 187, 187);
     border-radius: 20px;
     margin: 150px 100px;
 }
-.Contactame{
+ .Contactame{
     display: flex;
     flex-direction: column;
-    width: 500px;
     padding: 30px;
-}
+    font-size: 18px;
+} 
 .Contactame2 h2{
     font-weight: bold;
-    font-size: 42px;
+    font-size: 48px;
 }
 .Contactame2 p{
     margin-bottom: 50px;
@@ -478,6 +477,7 @@ button:hover{
 .ContactameRedes2{
     flex-direction: column;
     display: flex;
+    padding-left: 0;
    
 }
 .ContactameRedes3{
@@ -491,6 +491,7 @@ button:hover{
 .iconosredes2 i{
     color: teal;
     padding: 10px;
+    
 }
 
 .ContactameRedes a{
@@ -520,6 +521,8 @@ form{
     margin: 10px;
     font-weight: 100;
 }
+
+
 input[type=text]:active{
     border-radius: 20px;
     box-shadow: 0px 0px 5px 1px teal
@@ -556,7 +559,6 @@ textarea:focus{
 .Escribime{
     display: flex;
     flex-direction: column;
-    width: 500px;
     padding: 30px;
     font-size: 22px;
 }
@@ -570,9 +572,315 @@ textarea:focus{
 }
 .Divname{
     text-align: left;
+    display: flex;
+}
+form{
+    display: flex;
 }
 
-footer{
+input[type="text"]{
+    width: 210px;
+    height: 30px;
+    background-color: rgb(224, 224, 173);
+    color: grey;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 224, 173)
+}
+input[type="Email"]{
+    width: 450px;
+    height: 30px;
+    background-color:  rgb(224, 224, 173);
+    color: grey;
+    border-radius: 20px;
+    border: 1px solid  rgb(224, 224, 173);
+    margin: 10px;
+
+}
+textarea{
+    width: 450px;
+    height: 100px;
+    background-color:  rgb(224, 224, 173);
+    color: grey;
+    border-radius: 15px;
+    border: 1px solid  rgb(224, 224, 173);
+    margin: 10px;
+
+}
+.botonformulario{
+    border-radius: 30px;
+    border: 2px solid #2a6186;
+    color: black;
+    background-color: #4c9791;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    width: 150px;
+    margin: 20px;
+}
+.botonformulario:hover{
+    background-color: #6db3ad;
+}
+@media screen and (max-width:1110px) and (min-width:950px){
+    .Escribime{
+        width: 350px;
+
+    }
+    input[type="text"]{
+        width: 145px;
+    }   
+    input[type="Email"]{
+            width: 320px;
+    }
+    textarea{
+        width: 320px;
+    }
+}
+@media screen and (max-width:950px) and (min-width:915px){
+        .Escribime{
+            width: 320px;
+    
+        }
+        input[type="text"]{
+            width: 145px;
+        }   
+        input[type="Email"]{
+                width: 320px;
+        }
+        textarea{
+            width: 320px;
+        }
+    }
+@media screen and (max-width:915px) and (min-width:872px){
+            .Formulario{
+                flex-direction: column;
+        
+            }
+            .uno{
+                display: flex;
+                justify-content: space-between;
+                width: 450px;
+                
+            }
+            .dos{
+                display: flex;
+                justify-content: space-between;
+                width: 550px;
+                
+            }
+            input[type="text"]{
+                width: 275px;
+            }   
+            input[type="Email"]{
+                    width: 580px;
+            }
+            textarea{
+                width: 580px;
+            }
+         
+      
+}
+@media screen and (max-width:872px) and (min-width:765px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 380px;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+        
+    }
+    input[type="text"]{
+        width: 225px;
+    }   
+    input[type="Email"]{
+            width: 470px;
+    }
+    textarea{
+        width: 470px;
+    }
+ 
+
+}
+@media screen and (max-width:765px) and (min-width:695px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        
+    }
+    input[type="text"]{
+        width: 175px;
+    }   
+    input[type="Email"]{
+            width: 380px;
+    }
+    textarea{
+        width: 380px;
+    }
+ 
+
+}
+@media screen and (max-width:695px) and (min-width:320px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        flex-direction: column;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        flex-direction: column;
+        
+    }
+    input[type="text"]{
+        width: 380px;
+    }   
+    input[type="Email"]{
+            width: 380px;
+    }
+    textarea{
+        width: 380px;
+    }
+    .Divname{
+        flex-direction: column;
+        
+    }
+ 
+
+}
+@media screen and (max-width:680px) and (min-width:620px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        flex-direction: column;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        flex-direction: column;
+        
+    }
+    input[type="text"]{
+        width: 320px;
+    }   
+    input[type="Email"]{
+            width: 320px;
+    }
+    textarea{
+        width: 320px;
+    }
+    .Divname{
+        flex-direction: column;
+        
+    }
+ 
+
+}
+@media screen and (max-width:620px) and (min-width:320px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        flex-direction: column;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        flex-direction: column;
+        
+    }
+    input[type="text"]{
+        width: 260px;
+    }   
+    input[type="Email"]{
+            width: 260px;
+    }
+    textarea{
+        width: 260px;
+    }
+    .Divname{
+        flex-direction: column;
+        
+    }
+ 
+
+}
+@media screen and (max-width:620px) and (min-width:320px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        flex-direction: column;
+        font-size: 15px;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        flex-direction: column;
+        font-size: 15px;
+        
+    }
+    input[type="text"]{
+        width: 230px;
+    }   
+    input[type="Email"]{
+            width: 230px;
+    }
+    textarea{
+        width: 230px;
+    }
+    .Divname{
+        flex-direction: column;
+        
+    }
+ 
+
+}
+ /*Footer*/
+ footer{
     height: 300px;
     background-color: #4c9791;
 }
@@ -594,46 +902,6 @@ footer{
     margin: 10px;
     font-size: 17px;
     
-}
-input[type="text"]{
-    width: 200px;
-    height: 30px;
-    background-color: #f6f7fb;
-    color: grey;
-    border-radius: 20px;
-    border: 1px solid #f6f7fb
-}
-input[type="Email"]{
-    width: 80%;
-    height: 30px;
-    background-color: #f6f7fb;
-    color: grey;
-    border-radius: 20px;
-    border: 1px solid #f6f7fb
-
-}
-textarea{
-    width: 100%;
-    height: 60%;
-    background-color: #f6f7fb;
-    color: grey;
-    border-radius: 15px;
-    border: 1px solid #f6f7fb
-
-}
-.botonformulario{
-    border-radius: 30px;
-    border: 2px solid #2a6186;
-    color: black;
-    background-color: #4c9791;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Cormorant Garamond', serif;
-    width: 150px;
-    margin: 20px;
-}
-.botonformulario:hover{
-    background-color: #6db3ad;
 }
 .footerredes{
     display: flex;
