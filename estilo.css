@@ -278,20 +278,23 @@ button:hover{
  /*SobreMi*/
 .seccionsobremi{
     background-color: #4c9791;
-    justify-content: center;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .parrafosobremi{
-    margin: 100px;
-    margin-left: 150;
-    margin-right: 150px;
+    margin: 100px 150px;
     font-size: 23px;
 }
 .h2sobremi{
     font-size: 40px;
+}
+.sobremi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 @media screen and (max-width:1125px) and (min-width:489px){
 .imagencomillas{
@@ -473,7 +476,6 @@ button:hover{
 .Contactame2 p{
     margin-bottom: 50px;
 }
-
 .ContactameRedes2{
     flex-direction: column;
     display: flex;
@@ -491,9 +493,7 @@ button:hover{
 .iconosredes2 i{
     color: teal;
     padding: 10px;
-    
 }
-
 .ContactameRedes a{
     color: black;
     text-decoration: none;   
@@ -514,25 +514,20 @@ form{
     display: flex;
     flex-direction: row;
 }
-
 .labelname{
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-weight: 100;
 }
-
-
 input[type=text]:active{
     border-radius: 20px;
     box-shadow: 0px 0px 5px 1px teal
-    
 }
 input[type=text]:focus{
     border-radius: 20px;
     outline: none;
     box-shadow: 0px 0px 5px 1px teal
-    
 }
 input [type=email]:active{
     border-radius: 20px;
@@ -546,7 +541,6 @@ input[type=email]:focus{
 textarea:active{
     border-radius: 20px;
     box-shadow: 0px 0px 5px 1px teal
-
 }
 textarea:focus{
     border-radius: 20px;
@@ -577,7 +571,6 @@ textarea:focus{
 form{
     display: flex;
 }
-
 input[type="text"]{
     width: 210px;
     height: 30px;
@@ -594,7 +587,6 @@ input[type="Email"]{
     border-radius: 20px;
     border: 1px solid  rgb(224, 224, 173);
     margin: 10px;
-
 }
 textarea{
     width: 450px;
@@ -604,7 +596,6 @@ textarea{
     border-radius: 15px;
     border: 1px solid  rgb(224, 224, 173);
     margin: 10px;
-
 }
 .botonformulario{
     border-radius: 30px;
@@ -620,64 +611,58 @@ textarea{
 .botonformulario:hover{
     background-color: #6db3ad;
 }
+
 @media screen and (max-width:1110px) and (min-width:950px){
     .Escribime{
         width: 350px;
-
     }
     input[type="text"]{
         width: 145px;
     }   
     input[type="Email"]{
-            width: 320px;
+        width: 320px;
     }
     textarea{
         width: 320px;
     }
 }
 @media screen and (max-width:950px) and (min-width:915px){
-        .Escribime{
-            width: 320px;
-    
-        }
-        input[type="text"]{
-            width: 145px;
-        }   
-        input[type="Email"]{
-                width: 320px;
-        }
-        textarea{
-            width: 320px;
-        }
+    .Escribime{
+        width: 320px;    
     }
+    input[type="text"]{
+        width: 145px;
+    }   
+    input[type="Email"]{
+        width: 320px;
+    }
+    textarea{
+        width: 320px;
+    }
+}
 @media screen and (max-width:915px) and (min-width:872px){
-            .Formulario{
-                flex-direction: column;
-        
-            }
-            .uno{
-                display: flex;
-                justify-content: space-between;
-                width: 450px;
-                
-            }
-            .dos{
-                display: flex;
-                justify-content: space-between;
-                width: 550px;
-                
-            }
-            input[type="text"]{
-                width: 275px;
-            }   
-            input[type="Email"]{
-                    width: 580px;
-            }
-            textarea{
-                width: 580px;
-            }
-         
-      
+    .Formulario{
+        flex-direction: column;
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 550px;
+    }            
+    input[type="text"]{
+        width: 275px;
+    }   
+    input[type="Email"]{
+        width: 580px;
+    }
+    textarea{
+        width: 580px;
+    }      
 }
 @media screen and (max-width:872px) and (min-width:765px){
     .Formulario{
@@ -708,7 +693,7 @@ textarea{
  
 
 }
-@media screen and (max-width:765px) and (min-width:695px){
+@media screen and (max-width:765px) and (min-width:680px){
     .Formulario{
         flex-direction: column;
 
@@ -737,41 +722,7 @@ textarea{
  
 
 }
-@media screen and (max-width:695px) and (min-width:320px){
-    .Formulario{
-        flex-direction: column;
 
-    }
-    .uno{
-        display: flex;
-        justify-content: space-between;
-        width: 320px;
-        flex-direction: column;
-        
-    }
-    .dos{
-        display: flex;
-        justify-content: space-between;
-        width: 420px;
-        flex-direction: column;
-        
-    }
-    input[type="text"]{
-        width: 380px;
-    }   
-    input[type="Email"]{
-            width: 380px;
-    }
-    textarea{
-        width: 380px;
-    }
-    .Divname{
-        flex-direction: column;
-        
-    }
- 
-
-}
 @media screen and (max-width:680px) and (min-width:620px){
     .Formulario{
         flex-direction: column;
@@ -807,7 +758,7 @@ textarea{
  
 
 }
-@media screen and (max-width:620px) and (min-width:320px){
+@media screen and (max-width:620px) and (min-width:545px){
     .Formulario{
         flex-direction: column;
 
@@ -842,7 +793,7 @@ textarea{
  
 
 }
-@media screen and (max-width:620px) and (min-width:320px){
+@media screen and (max-width:545px) and (min-width:410px){
     .Formulario{
         flex-direction: column;
 
@@ -852,7 +803,6 @@ textarea{
         justify-content: space-between;
         width: 320px;
         flex-direction: column;
-        font-size: 15px;
         
     }
     .dos{
@@ -860,7 +810,46 @@ textarea{
         justify-content: space-between;
         width: 420px;
         flex-direction: column;
-        font-size: 15px;
+        
+    }
+    input[type="text"]{
+        width: 260px;
+    }   
+    input[type="Email"]{
+            width: 260px;
+    }
+    textarea{
+        width: 260px;
+    }
+    .Divname{
+        flex-direction: column;
+        
+    }
+    .Formulario{
+        border: none;
+        margin: 150px 50px;
+    }
+    
+ 
+
+}
+@media screen and (max-width:410px) and (min-width:320px){
+    .Formulario{
+        flex-direction: column;
+
+    }
+    .uno{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        flex-direction: column;
+        
+    }
+    .dos{
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        flex-direction: column;
         
     }
     input[type="text"]{
@@ -876,13 +865,29 @@ textarea{
         flex-direction: column;
         
     }
- 
+    .Formulario{
+        border: none;
+        margin: 150px 20px;
+    }
+    
+    .Contactame2 h2{
+        font-size: 40px;
+    }
+    .Escribime h2{
+        font-size: 40px;
+    }
 
 }
+
+
  /*Footer*/
  footer{
     height: 300px;
     background-color: #4c9791;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .segundonav{
     display: flex;
@@ -893,6 +898,8 @@ textarea{
     list-style-type: none;
     display: flex;
     margin-top: 60px;
+    justify-content: center;
+    align-items: center;
 }
 .segundonav a{
     text-decoration: none;
@@ -907,6 +914,7 @@ textarea{
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding: 0;
 }
 .footerredes2{
     margin: 10px;
@@ -915,19 +923,28 @@ textarea{
     color:rgb(96, 133, 202);
     background-color:white;
     border-radius: 50%;
-   padding: 10px;
+    padding: 10px;
 }
 .footerredes2 :hover{
     background:rgb(96, 133, 202);
     color: white;
 }
 .hechoconamor p{
+   color: white;
+}
+.hechoconamor{
     display: flex;
     justify-content: center;
-    color: white;
-
+    align-items: center;
 }
-
+@media screen and (max-width:700px) and (min-width:320px){
+    .segundonav{
+        display: none;
+    }
+    .footericonos{
+        justify-content: center;
+    }
+}
 
 
     
