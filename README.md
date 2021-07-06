@@ -5,7 +5,7 @@
 - HTML
 - CSS
 
-[Link al proyecto]
+[Link al proyecto] (https://camilaclau.github.io/Portfolio1/)
 
 ### Podes encontrar:
 - Links de navegacion que te haran recorrer la pagina
