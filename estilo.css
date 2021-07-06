@@ -43,6 +43,12 @@ a:active {
     border-radius: 20px;
     color: teal;
 }
+a:focus{
+    box-shadow: 0px 0px 5px 1px #08635a;
+    border-radius: 8px;
+    outline: none;
+}
+
 .primernav{
 margin: 50px;
 justify-content: flex-end;
@@ -321,6 +327,7 @@ button:hover{
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding-top: 50px;
 
 }
 .tercerh2{
@@ -384,6 +391,10 @@ button:hover{
     border-color:  #42ccbe;
     color: #42ccbe;
 }
+.contenedor:active {
+    box-shadow: 0px 0px 5px 1px #42ccbe;
+}
+
 @media screen and (max-width:1015px) and (min-width:930px){
     .centrarcard2{
         width: 900px;            
@@ -462,11 +473,12 @@ button:hover{
     border: 1px solid rgb(190, 187, 187);
     border-radius: 20px;
     margin: 150px 100px;
+    padding-top: 50px;
 }
  .Contactame{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
     font-size: 18px;
 } 
 .Contactame2 h2{
@@ -553,7 +565,7 @@ textarea:focus{
 .Escribime{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
     font-size: 22px;
 }
 .Escribime h2{
@@ -918,16 +930,20 @@ textarea{
 }
 .footerredes2{
     margin: 10px;
+
 }
 .footerredes2 i{
     color:rgb(96, 133, 202);
     background-color:white;
     border-radius: 50%;
     padding: 10px;
+    border: 1px solid rgb(96, 133, 202);
 }
-.footerredes2 :hover{
+.footerredes2 i:hover{
     background:rgb(96, 133, 202);
     color: white;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 .hechoconamor p{
    color: white;
@@ -936,6 +952,22 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+ .iconosredes2:focus{
+    box-shadow: 0px 0px 5px 1px #08635a;
+    border-radius: 8px;
+    outline: none;
+    padding:15px;
+    }
+.botonformulario:focus{
+    box-shadow: 0px 0px 5px 1px #08635a;
+    border-radius: 8px;
+    outline: none;
+    padding:15px;
+
+}
+.footerredes2 i:focus{
+    box-shadow: 0 0 5px 1px teal;
 }
 @media screen and (max-width:700px) and (min-width:320px){
     .segundonav{
