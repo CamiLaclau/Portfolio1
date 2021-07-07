@@ -1,52 +1,52 @@
 html,
 body{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    color: black;
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
+font-family: 'Cormorant Garamond', serif;
+font-size: 20px;
+color: black;
+height: 100%;
+width: 100%;
+margin: 0%;
+padding: 0%;
 }
 
 header{
-    background-color: white;
-    height: 80px;
-   align-items: center;
-   display: flex;
-   justify-content: flex-end;
-   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
+background-color: white;
+height: 80px;
+align-items: center;
+display: flex;
+justify-content: flex-end;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
 }
 .ulheader{
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: flex-end;
+list-style-type: none;
 }
 .item a{
-    text-decoration: none;
-    color: black;
-    margin: 20px;
-    padding: 10px;
+text-decoration: none;
+color: black;
+margin: 20px;
+padding: 10px;
 }
 a:hover {
-    color:rgb(96, 133, 202)
+color:rgb(96, 133, 202)
 
 }
 a:active {
-    box-shadow: 0px 0px 5px 1px teal;
-    border-radius: 20px;
-    color: teal;
+box-shadow: 0px 0px 5px 1px teal;
+border-radius: 20px;
+color: teal;
 }
 a:focus{
-    box-shadow: 0px 0px 5px 1px #08635a;
-    border-radius: 8px;
-    outline: none;
+box-shadow: 0px 0px 5px 1px #08635a;
+border-radius: 8px;
+outline: none;
 }
 
 .primernav{
@@ -54,22 +54,22 @@ margin: 50px;
 justify-content: flex-end;
 }
 .botonuno{
-    border-radius: 30px;
-    border: 2px solid #2a6186;
-    color: black;
-    background-color: #4c9791;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Cormorant Garamond', serif;
+border-radius: 30px;
+border: 2px solid #2a6186;
+color: black;
+background-color: #4c9791;
+padding: 10px;
+font-size: 20px;
+font-family: 'Cormorant Garamond', serif;
 
 }
 .botonuno:hover {
-    background-color: #88beba;
-    color: white;
+background-color: #88beba;
+color: white;
 }
 @media screen and (max-width:1100px) and (min-width:300px) {
     header{
-        display: none;
+    display: none;
     }
 }
 /*Hola yo soy*/
@@ -123,51 +123,51 @@ justify-content: flex-end;
 
 @media screen and (max-width:1100px) and (min-width:300px){
     .seccionuno{
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
     }
     .descripcion{
-        font-size: 19px;
+    font-size: 19px;
     }
     .holasoy{
-        text-align: center;
+    text-align: center;
     }
     .camila{
-        text-align: center;
+    text-align: center;
     }
     .descripcion{
-        text-align: center;
+    text-align: center;
     }
     .contenedoruno{
-        text-align: center;
+    text-align: center;
     }
 }
 @media screen and (max-width:670px) and (min-width:560px){
     .camila{
-        font-size: 60px;
+    font-size: 60px;
     }
     
 }
 @media screen and (max-width:560px) and (min-width:443px){
     .camila{
-        font-size: 40px;
+    font-size: 40px;
     }
     .descripcion{
-        font-size: 17px;
+    font-size: 17px;
     }
     .holasoy{
-        font-size: 40px;
+    font-size: 40px;
     }
 }
 @media screen and (max-width:443px) and (min-width:300px){
     .camila{
-        font-size: 27px;
+    font-size: 27px;
     }
     .descripcion{
-        font-size: 14px;
+    font-size: 14px;
     }
     .holasoy{
-        font-size: 30px;
+    font-size: 30px;
     }
 }
 /*Mis conocimientos*/
@@ -229,55 +229,55 @@ button:hover{
     margin: 10px;
  }
  .card:hover {
-     border-color:  #42ccbe;
-     color: #42ccbe;
+    border-color:  #42ccbe;
+    color: #42ccbe;
 
  }
  .pcard{
-     font-weight: bold;
+    font-weight: bold;
  }
  @media screen and (max-width:940px) and (min-width:615px){
     .iconosconocimientos{
-        width: 700px;
-        height: 750px;
+    width: 700px;
+    height: 750px;
     }
 }  
 @media screen and (max-width:615px) and (min-width:580px){
         .iconosconocimientos{
-            width: 450px;
-            height: 1700px;
+        width: 450px;
+        height: 1700px;
         }
 }
 @media screen and (max-width:580px) and (min-width:490px){
     .card{
-        width: 200px;
-        height: 200px;
+    width: 200px;
+    height: 200px;
     }
     .primerlorem{
-        width: 450px;
+    width: 450px;
         
     }
     .iconosconocimientos{
-        width: 450px;
-        height: 750px;
+    width: 450px;
+    height: 750px;
     }
 }
 @media screen and (max-width:490px) and (min-width:320px){
     .card{
-        width: 200px;
-        height: 200px;
+    width: 200px;
+    height: 200px;
     }
 
     .primerlorem{
-        width: 320px;
+    width: 320px;
         
     }
     .iconosconocimientos{
-        width: 400px;
-        height: 1600px;
+    width: 400px;
+    height: 1600px;
     }
     .segundah2{
-        font-size: 35px;
+    font-size: 35px;
     }
 }
 
@@ -313,11 +313,11 @@ button:hover{
 }
 @media screen and (max-width:489px) and (min-width:320px){
     .imagencomillas{
-        margin-top: 60px;
+    margin-top: 60px;
     }
     
     .h2sobremi{
-        margin-bottom: 60px;
+    margin-bottom: 60px;
     }
 }
 /*Proyectos*/
@@ -397,74 +397,74 @@ button:hover{
 
 @media screen and (max-width:1015px) and (min-width:930px){
     .centrarcard2{
-        width: 900px;            
+    width: 900px;            
     }
     .contenedor{
-        width: 270px;
-        height: 270px;
+    width: 270px;
+    height: 270px;
     } 
     .imagenconocimiento{
-        width: 270px;  
-            } 
+    width: 270px;  
+    } 
     .imagenes {
-        width: 200px;
+    width: 200px;
     }
 }
 @media screen and (max-width:930px) and (min-width:700px){
     .centrarcard2{
-        width: 650px;
-        }
-            
-        .contenedor{
-            width: 300px;
-            height: 300px;
-        } 
-        .imagenconocimiento{
-            width: 300px;  
-                } 
-        .imagenes {
-            width: 230px;
-        }
+    width: 650px;
     }
-    @media screen and (max-width:700px) and (min-width:520px){
-        .centrarcard2{
-            width: 500px;
-        }
-        .card2{
-            flex-direction: column;
-            align-items: center;
-            }                
             
-        }
+    .contenedor{
+    width: 300px;
+    height: 300px;
+    } 
+    .imagenconocimiento{
+    width: 300px;  
+    } 
+    .imagenes {
+    width: 230px;
+    }
+}
+@media screen and (max-width:700px) and (min-width:520px){
+    .centrarcard2{
+    width: 500px;
+    }
+    .card2{
+    flex-direction: column;
+    align-items: center;
+    }                
+            
+}
 
-    @media screen and (max-width:520px) and (min-width:320px){
-            .centrarcard2{
-                width: 350px;
-            }
-            .card2{
-                flex-direction: column;
-                align-items: center;
-                } 
-            .tercerh2{
-                    font-weight: bold;
-                    font-size: 35px;
-                }
-            .segundolorem{
-                    width: 300px;
-                    font-size: 18px;
-                }
-                .contenedor{
-                    width: 270px;
-                    height: 270px;
-                } 
-                .imagenconocimiento{
-                    width: 270px;  
-                        } 
-                .imagenes {
-                    width: 200px;
-                }
+@media screen and (max-width:520px) and (min-width:320px){
+    .centrarcard2{
+    width: 350px;
+    }
+    .card2{
+    flex-direction: column;
+    align-items: center;
+    } 
+    .tercerh2{
+    font-weight: bold;
+    font-size: 35px;
+    }
+    .segundolorem{
+    width: 300px;
+    font-size: 18px;
+    }
+    .contenedor{
+    width: 270px;
+    height: 270px;
+    } 
+    .imagenconocimiento{
+    width: 270px;  
+    } 
+    .imagenes {
+    width: 200px;
+    }
                 
-            }
+}
 
 /*Formulario*/
 .Formulario{
@@ -492,15 +492,13 @@ button:hover{
     flex-direction: column;
     display: flex;
     padding-left: 0;
-   
 }
 .ContactameRedes3{
     list-style-type: none;
     margin-bottom: 20px;
-    
 }
 .ContactameRedes3 i{
-     margin-right: 10px;
+    margin-right: 10px;
 }
 .iconosredes2 i{
     color: teal;
@@ -765,10 +763,8 @@ textarea{
     }
     .Divname{
         flex-direction: column;
-        
     }
  
-
 }
 @media screen and (max-width:620px) and (min-width:545px){
     .Formulario{
@@ -780,20 +776,18 @@ textarea{
         justify-content: space-between;
         width: 320px;
         flex-direction: column;
-        
     }
     .dos{
         display: flex;
         justify-content: space-between;
         width: 420px;
         flex-direction: column;
-        
     }
     input[type="text"]{
         width: 260px;
     }   
     input[type="Email"]{
-            width: 260px;
+        width: 260px;
     }
     textarea{
         width: 260px;
@@ -803,7 +797,6 @@ textarea{
         
     }
  
-
 }
 @media screen and (max-width:545px) and (min-width:410px){
     .Formulario{
@@ -828,7 +821,7 @@ textarea{
         width: 260px;
     }   
     input[type="Email"]{
-            width: 260px;
+        width: 260px;
     }
     textarea{
         width: 260px;
@@ -842,8 +835,6 @@ textarea{
         margin: 150px 50px;
     }
     
- 
-
 }
 @media screen and (max-width:410px) and (min-width:320px){
     .Formulario{
@@ -868,7 +859,7 @@ textarea{
         width: 230px;
     }   
     input[type="Email"]{
-            width: 230px;
+        width: 230px;
     }
     textarea{
         width: 230px;
@@ -892,7 +883,7 @@ textarea{
 }
 
 
- /*Footer*/
+/*Footer*/
  footer{
     height: 300px;
     background-color: #4c9791;
@@ -953,7 +944,7 @@ textarea{
     justify-content: center;
     align-items: center;
 }
- .iconosredes2:focus{
+.iconosredes2:focus{
     box-shadow: 0px 0px 5px 1px #08635a;
     border-radius: 8px;
     outline: none;
@@ -971,7 +962,7 @@ textarea{
 }
 @media screen and (max-width:700px) and (min-width:320px){
     .segundonav{
-        display: none;
+       display: none;
     }
     .footericonos{
         justify-content: center;
