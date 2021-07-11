@@ -1,8 +1,18 @@
+/* Atencion al tabulado tambien aqui en css, debemos dejar indentacion en las ordenes de css
+Por ejemplo:
+
+header {
+    height: 80px;
+} */
+
 html,
 body{
+    /* Esta tipografia debe estar importada, sino no la van a poder ver usuarios que no la tengan en su sistema operativo */
 font-family: 'Cormorant Garamond', serif;
 font-size: 20px;
+/* no es necesario aclarar el color negro, ya que viene por defecto */
 color: black;
+/* ni height ni width ni padding deben formar parte de esta orden. ya son por defecto el 100%, y ni body ni html tienen padding */
 height: 100%;
 width: 100%;
 margin: 0%;
@@ -10,6 +20,7 @@ padding: 0%;
 }
 
 header{
+    /* no es necesario, el color blanco es el que viene por defecto */
 background-color: white;
 height: 80px;
 align-items: center;
@@ -17,15 +28,18 @@ display: flex;
 justify-content: flex-end;
 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 position: fixed;
+/* no es necesario left ni top */
 left: 0;
 top: 0;
 width: 100%;
 }
 .ulheader{
 list-style: none;
+/* no es necesario, esta orden es para los a */
 text-decoration: none;
 display: flex;
 justify-content: flex-end;
+/* no es necesario, estas repitiendo la orden de arriba */
 list-style-type: none;
 }
 .item a{
@@ -51,6 +65,8 @@ outline: none;
 
 .primernav{
 margin: 50px;
+/* esta orden no es necesaria (ya se la da su padre) y de todos modos no funcionaria aqui, no funciona 
+si no aclaras antes display: flex */
 justify-content: flex-end;
 }
 .botonuno{
@@ -60,6 +76,7 @@ color: black;
 background-color: #4c9791;
 padding: 10px;
 font-size: 20px;
+/* las tipografias se heredan, asi que si ya la pusiste en el body no es necesario repetirla a menos que quieras cambiarla */
 font-family: 'Cormorant Garamond', serif;
 
 }
@@ -108,6 +125,7 @@ color: white;
 }
 .seccionuno{
     display: flex;
+    /* no es necesario, ya que row es el estilo por defecto */
     flex-direction: row;
     height: 500px;
     align-items: center;
@@ -211,6 +229,8 @@ button:hover{
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
+    /* no le des un height fijo a las secciones: eso reservalo para divs chiquitos tipo una card
+    el alto de los divs viene dado por su contenido.  */
     height: 600px;
     flex-direction: row;
     align-items: center;
@@ -335,6 +355,7 @@ button:hover{
     font-size: 42px;
 }
 .centrarcard2{
+    /* ninguno de estos estilos es necesario, salvo el width */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,6 +364,7 @@ button:hover{
 }
 .card2{
     display: flex;
+    /* innecesario */
     flex-direction: row;
     background-color: transparent;
     flex-wrap: wrap;
@@ -439,6 +461,7 @@ button:hover{
 
 @media screen and (max-width:520px) and (min-width:320px){
     .centrarcard2{
+        /* si el tamaño minimo de esta media es 320, decir que algo mide 350 es garantizar que va a rebalsar */
     width: 350px;
     }
     .card2{
@@ -575,12 +598,15 @@ textarea:focus{
     font-size: 20px;
 }
 .Divname{
+    /* innecesario */
     text-align: left;
     display: flex;
 }
 form{
     display: flex;
 }
+
+/* estos estilos estan muy repetitivos. necesitan una clase general */
 input[type="text"]{
     width: 210px;
     height: 30px;
